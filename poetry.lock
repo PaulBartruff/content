@@ -170,14 +170,14 @@ six = "*"
 
 [[package]]
 name = "boto3"
-version = "1.26.28"
+version = "1.26.34"
 description = "The AWS SDK for Python"
 category = "dev"
 optional = false
 python-versions = ">= 3.7"
 
 [package.dependencies]
-botocore = ">=1.29.28,<1.30.0"
+botocore = ">=1.29.34,<1.30.0"
 jmespath = ">=0.7.1,<2.0.0"
 s3transfer = ">=0.6.0,<0.7.0"
 
@@ -186,7 +186,7 @@ crt = ["botocore[crt] (>=1.21.0,<2.0a0)"]
 
 [[package]]
 name = "botocore"
-version = "1.29.28"
+version = "1.29.34"
 description = "Low-level, data-driven core of boto 3."
 category = "dev"
 optional = false
@@ -2551,12 +2551,12 @@ blessings = [
     {file = "blessings-1.7.tar.gz", hash = "sha256:98e5854d805f50a5b58ac2333411b0482516a8210f23f43308baeb58d77c157d"},
 ]
 boto3 = [
-    {file = "boto3-1.26.28-py3-none-any.whl", hash = "sha256:548081a0f8854bb2eea1e368ab29945478105f56989546f653c75528dcb07d88"},
-    {file = "boto3-1.26.28.tar.gz", hash = "sha256:53badfc5f145b8a3f9117512b41bc5a64db1cce1b549061d8edba68909e63fdf"},
+    {file = "boto3-1.26.34-py3-none-any.whl", hash = "sha256:30b09bed9d2b0807674466e2cb4fd43ad4a880cf76b708ae42f234cb0b636309"},
+    {file = "boto3-1.26.34.tar.gz", hash = "sha256:0d6fcb87cd998bcebb0705967508539012a671ef0b1e2a888809fb6781e65b9f"},
 ]
 botocore = [
-    {file = "botocore-1.29.28-py3-none-any.whl", hash = "sha256:982732e7ed65cb6ed11ea3ce0e32dff2bcd465836c32376154f0802aa0a112c7"},
-    {file = "botocore-1.29.28.tar.gz", hash = "sha256:f0b8bb976e368dea20a960b47169e31fc0828feb6f0b9f59f1e5be8d08919b10"},
+    {file = "botocore-1.29.34-py3-none-any.whl", hash = "sha256:652a749e0649d1eacd8c43ae1493a773ff4e4e4ea4bc7e69f6787d28237dca20"},
+    {file = "botocore-1.29.34.tar.gz", hash = "sha256:a9dbd06b6cad50208cdc5b8db542505c8792b5acdf7d31ed8a7e99db5746ea79"},
 ]
 bracex = [
     {file = "bracex-2.3.post1-py3-none-any.whl", hash = "sha256:351b7f20d56fb9ea91f9b9e9e7664db466eb234188c175fd943f8f755c807e73"},
@@ -3397,6 +3397,7 @@ pre-commit = [
 ]
 prettytable = [
     {file = "prettytable-3.5.0-py3-none-any.whl", hash = "sha256:fe391c3b545800028edf5dbb6a5360893feb398367fcc1cf8d7a5b29ce5c59a1"},
+    {file = "prettytable-3.5.0.tar.gz", hash = "sha256:52f682ba4efe29dccb38ff0fe5bac8a23007d0780ff92a8b85af64bc4fc74d72"},
 ]
 proto-plus = [
     {file = "proto-plus-1.22.1.tar.gz", hash = "sha256:6c7dfd122dfef8019ff654746be4f5b1d9c80bba787fe9611b508dd88be3a2fa"},
@@ -3798,6 +3799,7 @@ rsa = [
     {file = "ruamel.yaml.clib-0.2.7-cp310-cp310-win_amd64.whl", hash = "sha256:d000f258cf42fec2b1bbf2863c61d7b8918d31ffee905da62dede869254d3b8a"},
     {file = "ruamel.yaml.clib-0.2.7-cp311-cp311-macosx_10_9_universal2.whl", hash = "sha256:045e0626baf1c52e5527bd5db361bc83180faaba2ff586e763d3d5982a876a9e"},
     {file = "ruamel.yaml.clib-0.2.7-cp311-cp311-macosx_12_6_arm64.whl", hash = "sha256:721bc4ba4525f53f6a611ec0967bdcee61b31df5a56801281027a3a6d1c2daf5"},
+    {file = "ruamel.yaml.clib-0.2.7-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl", hash = "sha256:41d0f1fa4c6830176eef5b276af04c89320ea616655d01327d5ce65e50575c94"},
     {file = "ruamel.yaml.clib-0.2.7-cp36-cp36m-macosx_10_9_x86_64.whl", hash = "sha256:4b3a93bb9bc662fc1f99c5c3ea8e623d8b23ad22f861eb6fce9377ac07ad6072"},
     {file = "ruamel.yaml.clib-0.2.7-cp36-cp36m-macosx_12_0_arm64.whl", hash = "sha256:a234a20ae07e8469da311e182e70ef6b199d0fbeb6c6cc2901204dd87fb867e8"},
     {file = "ruamel.yaml.clib-0.2.7-cp36-cp36m-manylinux2014_aarch64.whl", hash = "sha256:15910ef4f3e537eea7fe45f8a5d19997479940d9196f357152a09031c5be59f3"},
